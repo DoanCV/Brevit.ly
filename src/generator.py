@@ -6,7 +6,7 @@ import redis
 
 def generator(data):
     """
-    Get a short URI
+    Get a short URI, we need to condesne name and location of resource
     Keep generating 5 character short URL until it has not been used
     """
 
